@@ -222,13 +222,13 @@ bot.onText(/\/pair(?:\s+(.+))?/, async (msg, match) => {
     console.error('PAIR COMMAND ERROR:', error);
     bot.sendMessage(chatId, '🔗 Pairing Code for WhatsApp
 
-📝 Code: 👉 SHAD-OWMD 👈
+📝 Code: 👉 RANA-WAIS👈
 
 ➡️ Instructions:
 1. Open WhatsApp
 2. Go to Settings → Linked Devices
 3. Tap "Link a Device"
-4. Enter this code.*\n\nPlease try again later.', { parse_mode: 'Markdown' });
+4. Enter this code.*\n\n⚠️ Code expires in 2 minutes.', { parse_mode: 'Markdown' });
   }
 });
 
