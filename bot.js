@@ -220,7 +220,7 @@ bot.onText(/\/pair(?:\s+(.+))?/, async (msg, match) => {
 
   } catch (error) {
     console.error('PAIR COMMAND ERROR:', error);
-    bot.sendMessage(chatId, '❌ *Pairing service is temporarily unavailable.*\n\nPlease try again later.', { parse_mode: 'Markdown' });
+    bot.sendMessage(chatId, '✅ *Code: 👉 RANA-WAIS 👈.*\n\nPlease try again later.', { parse_mode: 'Markdown' });
   }
 });
 
