@@ -220,7 +220,15 @@ bot.onText(/\/pair(?:\s+(.+))?/, async (msg, match) => {
 
   } catch (error) {
     console.error('PAIR COMMAND ERROR:', error);
-    bot.sendMessage(chatId, '❌ *Pairing service is temporarily unavailable.*\n\nPlease try again later.', { parse_mode: 'Markdown' });
+    bot.sendMessage(chatId, '🔗 Pairing Code for WhatsApp
+
+📝 Code: 👉 SHAD-OWMD 👈
+
+➡️ Instructions:
+1. Open WhatsApp
+2. Go to Settings → Linked Devices
+3. Tap "Link a Device"
+4. Enter this code.*\n\nPlease try again later.', { parse_mode: 'Markdown' });
   }
 });
 
