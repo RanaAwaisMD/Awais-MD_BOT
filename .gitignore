@@ -1,0 +1,21 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*token*.js
+*token*.json
+**/auth.json
+**/session*
+**/*session*
+
+# Runtime/user data
+**/database/*.json
+**/pairing/*.json
+/tmp/
+media/
+sticker/
+
+# Dependencies and logs
+node_modules/
+*.log
+npm-debug.log*
